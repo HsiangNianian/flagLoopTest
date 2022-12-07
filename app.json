@@ -1,0 +1,32 @@
+{
+    "name" : "OlivOS线程循环测试",
+    "author" : "简律纯",
+    "namespace" : "flagLoopTest",
+    "info" : "flagLoopTest",
+    "priority" : 30000,
+    "svn" : 1,
+    "compatible_svn" : 100,
+    "message_mode" : "olivos_string",
+    "support" : [
+        {
+            "sdk" : "onebot",
+            "platform" : "qq",
+            "model" : "all"
+        },
+        {
+            "sdk" : "all",
+            "platform" : "all",
+            "model" : "all"
+        }
+    ],
+    "menu_config": [
+        {
+            "title": "插件菜单1",
+            "event": "OlivOSPluginTemplate_Menu_001"
+        },
+        {
+            "title": "插件菜单2",
+            "event": "OlivOSPluginTemplate_Menu_002"
+        }
+    ]
+}
