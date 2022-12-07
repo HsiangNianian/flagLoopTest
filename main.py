@@ -64,6 +64,7 @@ def reply(plugin_event, Proc):
                     )
                     if type(tmp_select) == str and tmp_select.isdigit():
                         flag_need_loop = False
-            if plugin_event == None:
-                plugin_event.reply('plugin_event == None')
-                break
+                        break
+            # if plugin_event == None:
+            #     plugin_event.reply('plugin_event == None')
+            #     break
