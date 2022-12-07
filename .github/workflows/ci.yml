@@ -27,5 +27,5 @@ jobs:
         if: github.ref_type == 'tag'
         uses: softprops/action-gh-release@v1
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           files: ${{ env.PACK_NAME }}.opk
