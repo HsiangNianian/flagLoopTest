@@ -2,25 +2,21 @@ import OlivOS
 import flagLoopTest
 
 class Event(object):
-    def init(plugin_event, Proc):
+    def init(self, Proc):
         pass
 
-    def private_message(plugin_event, Proc):
+    def private_message(self, Proc):
         pass
 
-    def group_message(plugin_event, Proc):
+    def group_message(self, Proc):
         pass
 
-    def poke(plugin_event, Proc):
+    def poke(self, Proc):
         pass
 
-    def save(plugin_event, Proc):
+    def save(self, Proc):
         pass
 
-    def menu(plugin_event, Proc):
-        if plugin_event.data.namespace == 'OlivOSPluginTemplate':
-            if plugin_event.data.event == 'OlivOSPluginTemplate_Menu_001':
-                pass
-            elif plugin_event.data.event == 'OlivOSPluginTemplate_Menu_002':
-                pass
+    def menu(self, Proc):
+        pass
             
